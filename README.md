@@ -39,7 +39,7 @@ Ensure you have internet access to download pre-trained models and datasets used
 
 ### 1. Direct Summarization Using BART
 
-This script uses the BART transformer model for abstractive summarization.
+This model uses the BART transformer model for abstractive summarization.
 
 Run the script:
 ```bash
@@ -52,7 +52,7 @@ python bart_summarization.py
 
 ### 2. Summarization Enhanced by Sentiment Analysis and Topic Modeling
 
-This script integrates sentiment analysis (using BERT) and topic modeling (using LDA) with BART.
+This model integrates sentiment analysis (using BERT) and topic modeling (using LDA) with BART.
 
 Run the script:
 ```bash
@@ -64,9 +64,9 @@ python sentiment_topic_modeling.py
 - Topic modeling identifies key themes using Latent Dirichlet Allocation (LDA).
 - Produces a summary aligned with the sentiment and topics of the original text.
 
-### 3. Hierarchical Summarization Strategy
+### 3. Hierarchical Summarization Model
 
-This script breaks long texts into chunks, summarizes each, and combines them for a refined output.
+This mode breaks long texts into chunks, summarizes each, and combines them for a refined output.
 
 Run the script:
 ```bash
@@ -97,14 +97,3 @@ The script provides insights into:
 - **Generated Summaries**: Visualizes summaries from all models.
 - **Sentiment Scores**: Displays the sentiment distribution of each generated summary.
 
-## Citation
-
-If you use this repository in your research or work, please cite:
-
-```bibtex
-@article{Munugala2024,
-  author = {Shravya Munugala, Kumaran K},
-  title = {Hierarchical and Multi-Model Approaches for Abstractive Summarization of News Articles},
-  year = {2024}
-}
-```
